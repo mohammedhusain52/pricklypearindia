@@ -1,0 +1,146 @@
+@media (min-width: 1500px) {
+  .la-single-product-page{
+    .product-main-image{
+      padding-right: 30px;
+    }
+    .product--summary{
+      padding-left: 30px;
+    }
+  }
+}
+@media (max-width: 1500px) {
+
+  .header--menu-burger .menu{
+    > li{
+      > a {
+        font-size: 50px;
+      }
+      ul{
+        padding: 10px 0;
+      }
+    }
+  }
+
+
+  .header--aside:not(#masthead_aside) {
+    width: 330px;
+    .header-aside-inner{
+      padding: 50px 30px;
+    }
+    .btn-aside-toggle{
+      right: 20px;
+    }
+  }
+
+  .header-v7{
+    #masthead_aside{
+      width: 330px;
+      .site-header-inner {
+        padding: 80px 30px 80px 30px;
+      }
+      .header-left{
+        margin-bottom: 30px;
+      }
+
+      .header-middle{
+        margin-bottom: 30px;
+      }
+      .header-bottom{
+        padding-top: 30px;
+      }
+    }
+    &:not(.rtl){
+      #masthead_aside{
+        left: 0;
+      }
+      #page.site{
+        padding-left: 330px;
+      }
+    }
+    &.rtl{
+      #masthead_aside{
+        right: 0;
+      }
+      #page.site{
+        padding-right: 330px;
+      }
+    }
+  }
+
+  .la_testimonials--style-1{
+    .testimonial_item--excerpt{
+      font-size: 30px;
+    }
+  }
+
+}
+
+@media (max-width: 1400px){
+  .site-main-nav .main-menu > li > a {
+    font-size: 16px;
+  }
+  .mega-menu > li > a{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .site-header .header_component.header-custom-btn > .component-target {
+    padding: 10px 35px;
+    height: 50px;
+    line-height: 30px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+  }
+
+  .header-v2{
+    .site-header{
+      .header-middle{
+        float: right;
+        width: auto;
+      }
+      .header-right{
+        max-width: none;
+      }
+    }
+  }
+
+  .header-v7,
+  .header-v5{
+    #masthead_aside{
+      width: 300px;
+      .site-header-inner{
+        padding: 50px 15px;
+      }
+    }
+    &:not(.rtl){
+      #page.site{
+        padding-left: 300px;
+      }
+    }
+    &.rtl{
+      #page.site{
+        padding-right: 300px;
+      }
+    }
+  }
+  &.header-v7{
+    .header--aside .mega-menu{
+      margin-left: -15px;
+      margin-right: -15px;
+      > li > a{
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+
+}
+
+/* Large devices (large desktops, 1200px only) */
+@media (min-width: $screen-lg-min) and (max-width: 1439px) {
+
+}

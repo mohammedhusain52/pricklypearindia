@@ -1,0 +1,114 @@
+/* Medium devices (old desktop, less than 1199px) */
+@media (max-width: $screen-md-max ){
+  h1,
+  .h1 {
+    font-size: 30px;
+  }
+
+  h2,
+  .h2 {
+    font-size: 24px;
+  }
+
+  h3,
+  .h3 {
+    font-size: 20px;
+  }
+
+  h4,
+  .h4 {
+    font-size: 18px;
+  }
+
+  h5,
+  .h5 {
+    font-size: 16px;
+  }
+
+  h6,
+  .h6 {
+    font-size: 16px;
+  }
+
+  .backtotop-container{
+    .btn-backtotop{
+      bottom: 80px;
+    }
+    &.show{
+      .btn-backtotop{
+        right: 30px;
+      }
+    }
+  }
+
+  .page-title-v1 .use-custom-text .page-title {
+    font-size: 60px;
+    letter-spacing: 0;
+    &:after {
+      margin: 15px auto;
+    }
+  }
+
+  .la-headings .heading-tag{
+    margin-bottom: 10px;
+  }
+
+  .blog_item--title .entry-title{
+    font-size: 18px;
+  }
+
+  .iconboxes_demo_1_style_1.la-sc-icon-boxes{
+    .wrap-icon{
+      width: 60px;
+    }
+    .box-icon-left{
+      padding-right: 50px;
+    }
+    .box-description{
+      margin-top: 20px;
+      &:before{
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .la-circle-progress.la-progress-2 .sc-cp-v{
+    font-size: 20px;
+  }
+  .la-members--style-6{
+    .la-member__info-title{
+      font-size: 20px;
+    }
+    .la-member__info-role{
+      font-size: 14px;
+    }
+    .la-member__info-title-role{
+      &:after{
+        width: 40px;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+  .admin-bar{
+    #header_aside{
+      top: 32px;
+    }
+  }
+  .header-v7,
+  .header-v6,
+  .header-v5{
+    #colophon{
+      display: none;
+    }
+  }
+}
+
+/* Medium devices (desktops, 992px only) */
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max){
+  .site-header .container{
+    width: 100%;
+  }
+}
