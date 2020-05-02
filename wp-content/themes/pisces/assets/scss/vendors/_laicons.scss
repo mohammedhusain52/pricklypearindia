@@ -1,0 +1,99 @@
+[class*="fa-"] {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class*="pisces-icon-"]{
+  font-family: "pisces";
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pisces-icon-favourite:before {
+  content: "\67";
+}
+.pisces-icon-mobile:before {
+  content: "\61";
+}
+.pisces-icon-email:before {
+  content: "\62";
+}
+.pisces-icon-clock:before {
+  content: "\63";
+}
+.pisces-icon-zoom:before {
+  content: "\64";
+}
+.pisces-icon-cart-modern:before {
+  content: "\65";
+}
+.pisces-icon-menu:before {
+  content: "\66";
+}
+.pisces-icon-simple-remove:before {
+  content: "\68";
+}
+.pisces-icon-arrow-tail-left:before {
+  content: "\69";
+}
+.pisces-icon-arrow-tail-right:before {
+  content: "\6a";
+}
+.pisces-icon-arrow-minimal-left:before {
+  content: "\6b";
+}
+.pisces-icon-arrow-minimal-right:before {
+  content: "\6c";
+}
+.pisces-icon-arrow-tail-triangle-down:before {
+  content: "\6d";
+}
+.pisces-icon-arrow-tail-triangle-up:before {
+  content: "\6e";
+}
+.pisces-icon-grid:before {
+  content: "\6f";
+}
+.pisces-icon-user-circle:before {
+  content: "\70";
+}
+.pisces-icon-customer-support:before {
+  content: "\71";
+}
+.pisces-icon-favourite2:before {
+  content: "\72";
+}
+.pisces-icon-user-circle2:before {
+  content: "\73";
+}
+.pisces-icon-chat:before {
+  content: "\74";
+}
+.pisces-icon-loop:before {
+  content: "\75";
+}
+.pisces-icon-loop-alt3:before {
+  content: "\76";
+}
+.pisces-icon-loop-alt4:before {
+  content: "\77";
+}
+.pisces-icon-arrow-swap:before {
+  content: "\78";
+}
+.pisces-icon-menu2:before {
+  content: "\79";
+}
+.pisces-icon-cart-simple:before {
+  content: "\7a";
+}
